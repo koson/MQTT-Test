@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kobemarchal/Desktop/MQTTTest/MQTTTest/MQTTTest.csproj": {}
+  },
+  "projects": {
+    "/Users/kobemarchal/Desktop/MQTTTest/MQTTTest/MQTTTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kobemarchal/Desktop/MQTTTest/MQTTTest/MQTTTest.csproj",
+        "projectName": "MQTTTest",
+        "projectPath": "/Users/kobemarchal/Desktop/MQTTTest/MQTTTest/MQTTTest.csproj",
+        "packagesPath": "/Users/kobemarchal/.nuget/packages/",
+        "outputPath": "/Users/kobemarchal/Desktop/MQTTTest/MQTTTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kobemarchal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "OpcLabs.Mqtt": {
+              "target": "Package",
+              "version": "[5.59.492, )"
+            },
+            "System.Diagnostics.EventLog": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1451, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
