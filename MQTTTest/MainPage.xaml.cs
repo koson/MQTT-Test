@@ -12,9 +12,9 @@ using Xamarin.Forms;
 namespace MQTTTest {
     public partial class MainPage : ContentPage {
         IMqttClient client;
-        string host = "13.81.105.139";
+        string host = "172.104.35.200";
         int port = 1883;
-        string topic = "kobemarchal/test";
+        string topic = "Xamarin/test";
 
         public MainPage() {
             InitializeComponent();
